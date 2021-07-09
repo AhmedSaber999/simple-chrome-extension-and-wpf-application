@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "WZXt4r/DHqMpYMJ6u27VKjM1hQrZAVqFHhRn6GclNH6koG6CgvxWrqZuxck4IVqt1eSLzXqufVwvvrghF+wr/w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\20110\\Desktop\\Dev-Cell Task\\Dev-Cell Task\\Dev-Cell Task.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\20110\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
