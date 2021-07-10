@@ -4,6 +4,12 @@
              xmlns:local="clr-namespace:Dev_Cell_Task"
              StartupUri="View/MainWindow.xaml">
     <Application.Resources>
-         
+        <Style x:Key="ListViewStyle" TargetType="{x:Type GridViewColumnHeader}">
+            <Setter Property="HorizontalContentAlignment" Value="Left" />
+        </Style>
+        <Style TargetType="ListViewItem">
+            <Setter Property="MaxHeight" Value="50" />
+            <Setter Property="MaxHeight" Value="50" />
+        </Style>
     </Application.Resources>
 </Application>

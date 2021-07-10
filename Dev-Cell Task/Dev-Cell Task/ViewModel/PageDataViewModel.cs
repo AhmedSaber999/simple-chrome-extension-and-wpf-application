@@ -8,13 +8,13 @@ using System.Threading.Tasks;
 
 namespace Dev_Cell_Task.ViewModel
 {
-    class MainPageViewModel
+    class PageDataViewModel
     {
         private static readonly PageDataHandler pageDataHandler;
-        public static IEnumerable<PageData> page1Data { get; set; }
-        public static IEnumerable<PageData> page2Data { get; set; }
+        public static List<PageData> page1Data { get; set; }
+        public static List<PageData> page2Data { get; set; }
 
-        static MainPageViewModel()
+        static PageDataViewModel()
         {
             pageDataHandler = new PageDataHandler();
         }

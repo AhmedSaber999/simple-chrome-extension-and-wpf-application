@@ -27,11 +27,21 @@ namespace Dev_Cell_Task
             InitializeComponent();
             pages_button.Visibility = Visibility.Hidden;
             close_button.IsEnabled = false;
+            Top = 100;
+            Left = 300;
+        }
+        public MainWindow(bool server_state)
+        {
+            InitializeComponent();
+            pages_button.Visibility = server_state ? 
+                Visibility.Visible : Visibility.Hidden;
+            close_button.IsEnabled = server_state;
+            start_button.IsEnabled = !server_state;
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            MainPageViewModel.IntialoizeListener();
+            PageDataViewModel.IntialoizeListener();
             pages_button.Visibility = Visibility.Visible;
             close_button.IsEnabled = true;
             start_button.IsEnabled = false;
@@ -39,7 +49,7 @@ namespace Dev_Cell_Task
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            MainPageViewModel.CloseListener();
+            PageDataViewModel.CloseListener();
             pages_button.Visibility = Visibility.Hidden;
             close_button.IsEnabled = false;
             start_button.IsEnabled = true;
@@ -47,8 +57,13 @@ namespace Dev_Cell_Task
 
         private void pages_button_Click(object sender, RoutedEventArgs e)
         {
-            var page1 = new Page1();
+            var page1 = new Page1
+            {
+                Top = 100,
+                Left = 300
+            };
             page1.Show();
+            this.Close();
         }
     }
 }

@@ -5,33 +5,53 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Dev_Cell_Task.ViewModel"
         mc:Ignorable="d"
-        Title="Page2" Height="450" Width="800">
+        Title="Page2" Height="500" Width="800">
 
 
     <Window.DataContext>
-        <local:MainPageViewModel/>
+        <local:PageDataViewModel/>
     </Window.DataContext>
 
-    <Window.Resources>
-        <Style x:Key="ListViewStyle" TargetType="{x:Type GridViewColumnHeader}">
-            <Setter Property="HorizontalContentAlignment" Value="Left" />
-        </Style>
-    </Window.Resources>
     <Grid>
-        <ListView Margin="10,10,0,85" ItemsSource="{Binding page2Data}" HorizontalAlignment="Left" HorizontalContentAlignment="Left">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+
+        
+        <ListView Grid.Row="0" Grid.Column="0" Margin="10,10,0,50" ItemsSource="{Binding page2Data}"
+                  HorizontalAlignment="Left" HorizontalContentAlignment="Left" MaxHeight="350">
             <ListView.View>
                 <GridView>
-                    <GridViewColumn HeaderContainerStyle="{StaticResource ListViewStyle}" Header="Email" Width="200" DisplayMemberBinding="{Binding email}" />
-                    <GridViewColumn HeaderContainerStyle="{StaticResource ListViewStyle}" Header="First Name" Width="150" DisplayMemberBinding="{Binding first_name}" />
-                    <GridViewColumn HeaderContainerStyle="{StaticResource ListViewStyle}" Header="Last Name" Width="150" DisplayMemberBinding="{Binding last_name}" />
-                    <GridViewColumn HeaderContainerStyle="{StaticResource ListViewStyle}" Header="Avatar" Width="250" DisplayMemberBinding="{Binding avatar}" />
+                    <GridViewColumn HeaderContainerStyle="{StaticResource ListViewStyle}" 
+                                    Header="Email" Width="200" DisplayMemberBinding="{Binding email}" />
+                    <GridViewColumn HeaderContainerStyle="{StaticResource ListViewStyle}" 
+                                    Header="First Name" Width="150" DisplayMemberBinding="{Binding first_name}" />
+                    <GridViewColumn HeaderContainerStyle="{StaticResource ListViewStyle}" 
+                                    Header="Last Name" Width="150" DisplayMemberBinding="{Binding last_name}" />
+                    <GridViewColumn HeaderContainerStyle="{StaticResource ListViewStyle}" 
+                                    Header="Avatar" Width="Auto">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <Image Source="{Binding avatar}" />
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+
+                    </GridViewColumn>
                 </GridView>
             </ListView.View>
+            
         </ListView>
 
-        <Button Content="&lt;" Width="40" Height="30"
-               Canvas.Left="10" Canvas.Bottom="10"   
-                VerticalAlignment="Bottom" HorizontalAlignment="Left"
-                Click="Button_Click" />
+        <Button Content="&lt; previous page" Width="Auto" Height="30" Grid.Row="1" Grid.Column="0"
+                HorizontalAlignment="Left" Background="Azure" Margin="10" Click="Button_Click" />
+        
+        <Button Content="Main Screen" Width="Auto" Height="30" Grid.Column="0" Grid.Row="1"
+                Margin="10" VerticalAlignment="Bottom" HorizontalAlignment="Right"
+                Background="Azure" Name="Main_Screen_btn" Click="Main_Screen_btn_Click" />
     </Grid>
 </Window>

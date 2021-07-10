@@ -84,16 +84,16 @@ namespace Dev_Cell_Task.Model
                 context.Request.ContentEncoding).ReadToEnd();
 
                 var data = System.Web.HttpUtility.UrlDecode(data_text);
-                var page_data = JsonConvert.DeserializeObject<Root>(data);
+                var page_data = JsonConvert.DeserializeObject<PageDataRoot>(data);
 
 
                 if (page_data.page == 1)
                 {
-                    MainPageViewModel.page1Data = page_data.data;
+                    PageDataViewModel.page1Data = page_data.data;
                 }
                 else if (page_data.page == 2)
                 {
-                    MainPageViewModel.page2Data = page_data.data;
+                    PageDataViewModel.page2Data = page_data.data;
                 }
 
                 context.Response.StatusCode = 200;

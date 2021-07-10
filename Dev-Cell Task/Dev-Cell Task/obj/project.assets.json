@@ -53,11 +53,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\20110\\Desktop\\Dev-Cell Task\\Dev-Cell Task\\Dev-Cell Task.csproj",
+      "projectUniqueName": "C:\\Users\\20110\\Desktop\\Dev-Cell Task\\Dev-Cell-Task\\Dev-Cell Task\\Dev-Cell Task\\Dev-Cell Task.csproj",
       "projectName": "Dev-Cell Task",
-      "projectPath": "C:\\Users\\20110\\Desktop\\Dev-Cell Task\\Dev-Cell Task\\Dev-Cell Task.csproj",
+      "projectPath": "C:\\Users\\20110\\Desktop\\Dev-Cell Task\\Dev-Cell-Task\\Dev-Cell Task\\Dev-Cell Task\\Dev-Cell Task.csproj",
       "packagesPath": "C:\\Users\\20110\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\20110\\Desktop\\Dev-Cell Task\\Dev-Cell Task\\obj\\",
+      "outputPath": "C:\\Users\\20110\\Desktop\\Dev-Cell Task\\Dev-Cell-Task\\Dev-Cell Task\\Dev-Cell Task\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\20110\\AppData\\Roaming\\NuGet\\NuGet.Config",

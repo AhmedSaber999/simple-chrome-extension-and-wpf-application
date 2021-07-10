@@ -26,8 +26,23 @@ namespace Dev_Cell_Task.View
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            var page2 = new Page2();
+            var page2 = new Page2
+            {
+                Top = 100,
+                Left = 300
+            };
             page2.Show();
+            this.Close();
+        }
+
+        private void Main_Screen_btn_Click(object sender, RoutedEventArgs e)
+        {
+            var main_screen = new MainWindow(true)
+            {
+                Top = 100,
+                Left = 300
+            };
+            main_screen.Show();
             this.Close();
         }
     }

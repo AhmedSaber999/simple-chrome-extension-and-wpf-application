@@ -22,7 +22,7 @@ namespace Dev_Cell_Task.Model
         public string text { get; set; }
     }
 
-    public class Root
+    public class PageDataRoot
     {
         public int page { get; set; }
         public int per_page { get; set; }

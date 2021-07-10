@@ -27,3 +27,33 @@ C:\Users\20110\Desktop\Dev-Cell Task\Dev-Cell Task\bin\Debug\net5.0-windows\ref\
 C:\Users\20110\Desktop\Dev-Cell Task\Dev-Cell Task\bin\Debug\net5.0-windows\Dev-Cell Task.pdb
 C:\Users\20110\Desktop\Dev-Cell Task\Dev-Cell Task\obj\Debug\net5.0-windows\Dev-Cell Task.genruntimeconfig.cache
 C:\Users\20110\Desktop\Dev-Cell Task\Dev-Cell Task\obj\Debug\net5.0-windows\Dev-Cell Task.csprojAssemblyReference.cache
+C:\Users\20110\Desktop\Dev-Cell Task\Dev-Cell-Task\Dev-Cell Task\Dev-Cell Task\bin\Debug\net5.0-windows\Dev-Cell Task.exe
+C:\Users\20110\Desktop\Dev-Cell Task\Dev-Cell-Task\Dev-Cell Task\Dev-Cell Task\bin\Debug\net5.0-windows\Dev-Cell Task.deps.json
+C:\Users\20110\Desktop\Dev-Cell Task\Dev-Cell-Task\Dev-Cell Task\Dev-Cell Task\bin\Debug\net5.0-windows\Dev-Cell Task.runtimeconfig.json
+C:\Users\20110\Desktop\Dev-Cell Task\Dev-Cell-Task\Dev-Cell Task\Dev-Cell Task\bin\Debug\net5.0-windows\Dev-Cell Task.runtimeconfig.dev.json
+C:\Users\20110\Desktop\Dev-Cell Task\Dev-Cell-Task\Dev-Cell Task\Dev-Cell Task\bin\Debug\net5.0-windows\Dev-Cell Task.dll
+C:\Users\20110\Desktop\Dev-Cell Task\Dev-Cell-Task\Dev-Cell Task\Dev-Cell Task\bin\Debug\net5.0-windows\ref\Dev-Cell Task.dll
+C:\Users\20110\Desktop\Dev-Cell Task\Dev-Cell-Task\Dev-Cell Task\Dev-Cell Task\bin\Debug\net5.0-windows\Dev-Cell Task.pdb
+C:\Users\20110\Desktop\Dev-Cell Task\Dev-Cell-Task\Dev-Cell Task\Dev-Cell Task\bin\Debug\net5.0-windows\Newtonsoft.Json.dll
+C:\Users\20110\Desktop\Dev-Cell Task\Dev-Cell-Task\Dev-Cell Task\Dev-Cell Task\obj\Debug\net5.0-windows\Dev-Cell Task.csprojAssemblyReference.cache
+C:\Users\20110\Desktop\Dev-Cell Task\Dev-Cell-Task\Dev-Cell Task\Dev-Cell Task\obj\Debug\net5.0-windows\View\MainWindow.g.cs
+C:\Users\20110\Desktop\Dev-Cell Task\Dev-Cell-Task\Dev-Cell Task\Dev-Cell Task\obj\Debug\net5.0-windows\View\Page1.g.cs
+C:\Users\20110\Desktop\Dev-Cell Task\Dev-Cell-Task\Dev-Cell Task\Dev-Cell Task\obj\Debug\net5.0-windows\View\Page2.g.cs
+C:\Users\20110\Desktop\Dev-Cell Task\Dev-Cell-Task\Dev-Cell Task\Dev-Cell Task\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\20110\Desktop\Dev-Cell Task\Dev-Cell-Task\Dev-Cell Task\Dev-Cell Task\obj\Debug\net5.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\20110\Desktop\Dev-Cell Task\Dev-Cell-Task\Dev-Cell Task\Dev-Cell Task\obj\Debug\net5.0-windows\Dev-Cell Task_MarkupCompile.cache
+C:\Users\20110\Desktop\Dev-Cell Task\Dev-Cell-Task\Dev-Cell Task\Dev-Cell Task\obj\Debug\net5.0-windows\Dev-Cell Task_MarkupCompile.lref
+C:\Users\20110\Desktop\Dev-Cell Task\Dev-Cell-Task\Dev-Cell Task\Dev-Cell Task\obj\Debug\net5.0-windows\View\MainWindow.baml
+C:\Users\20110\Desktop\Dev-Cell Task\Dev-Cell-Task\Dev-Cell Task\Dev-Cell Task\obj\Debug\net5.0-windows\View\Page1.baml
+C:\Users\20110\Desktop\Dev-Cell Task\Dev-Cell-Task\Dev-Cell Task\Dev-Cell Task\obj\Debug\net5.0-windows\View\Page2.baml
+C:\Users\20110\Desktop\Dev-Cell Task\Dev-Cell-Task\Dev-Cell Task\Dev-Cell Task\obj\Debug\net5.0-windows\Dev-Cell Task.g.resources
+C:\Users\20110\Desktop\Dev-Cell Task\Dev-Cell-Task\Dev-Cell Task\Dev-Cell Task\obj\Debug\net5.0-windows\Dev-Cell Task.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\20110\Desktop\Dev-Cell Task\Dev-Cell-Task\Dev-Cell Task\Dev-Cell Task\obj\Debug\net5.0-windows\Dev-Cell Task.AssemblyInfoInputs.cache
+C:\Users\20110\Desktop\Dev-Cell Task\Dev-Cell-Task\Dev-Cell Task\Dev-Cell Task\obj\Debug\net5.0-windows\Dev-Cell Task.AssemblyInfo.cs
+C:\Users\20110\Desktop\Dev-Cell Task\Dev-Cell-Task\Dev-Cell Task\Dev-Cell Task\obj\Debug\net5.0-windows\Dev-Cell Task.csproj.CoreCompileInputs.cache
+C:\Users\20110\Desktop\Dev-Cell Task\Dev-Cell-Task\Dev-Cell Task\Dev-Cell Task\obj\Debug\net5.0-windows\Dev-Cell Task.csproj.CopyComplete
+C:\Users\20110\Desktop\Dev-Cell Task\Dev-Cell-Task\Dev-Cell Task\Dev-Cell Task\obj\Debug\net5.0-windows\Dev-Cell Task.dll
+C:\Users\20110\Desktop\Dev-Cell Task\Dev-Cell-Task\Dev-Cell Task\Dev-Cell Task\obj\Debug\net5.0-windows\ref\Dev-Cell Task.dll
+C:\Users\20110\Desktop\Dev-Cell Task\Dev-Cell-Task\Dev-Cell Task\Dev-Cell Task\obj\Debug\net5.0-windows\Dev-Cell Task.pdb
+C:\Users\20110\Desktop\Dev-Cell Task\Dev-Cell-Task\Dev-Cell Task\Dev-Cell Task\obj\Debug\net5.0-windows\Dev-Cell Task.genruntimeconfig.cache
+C:\Users\20110\Desktop\Dev-Cell Task\Dev-Cell-Task\Dev-Cell Task\Dev-Cell Task\obj\Debug\net5.0-windows\App.baml

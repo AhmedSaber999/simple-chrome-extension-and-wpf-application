@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\20110\Desktop\Dev-Cell Task\Dev-Cell Task\obj\Debug\net5.0-windows\
+C:\Users\20110\Desktop\Dev-Cell Task\Dev-Cell-Task\Dev-Cell Task\Dev-Cell Task\obj\Debug\net5.0-windows\
 Dev_Cell_Task
 none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
-C:\Users\20110\Desktop\Dev-Cell Task\Dev-Cell Task\App.xaml
+C:\Users\20110\Desktop\Dev-Cell Task\Dev-Cell-Task\Dev-Cell Task\Dev-Cell Task\App.xaml
 3-29939536
 
-101602251834
+101521300998
 194-29930905
 View\MainWindow.xaml;View\Page1.xaml;View\Page2.xaml;
 
-False
+True
 
