@@ -1,12 +1,12 @@
 <!doctype html>
 <html>
   <head>
-    <title>Page 1 Info</title>
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css" />
+    <title>Page 1 Data</title>
+    <meta charset="utf-8">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="node_modules/sweetalert2/dist/sweetalert2.css" />
   </head>
-  <body style="margin: 2%">
+  <body style="margin: 1%">
     
     <div id="loader-div" class="d-flex justify-content-center">
       <div id="loader-id" class="spinner-border" role="status">
@@ -14,27 +14,41 @@
     </div>
   
     <input id="page-number" value="1" hidden>
+
+    <div id="card-id" class="card">
+      <h5 class="card-header">Page 1</h5>
+      <div class="card-body">
+        
+        <table class="table table-bordered">
+          <thead class="thead-dark">
+            <tr>
+              <th>Email</th>
+              <th>First Name</th>
+              <th>Last Name</th>
+              <th>Avatar</th>
+            </tr>
+          </thead>
+          <tbody id="table-body-id">
     
-    <table id="table-id" class="table table-bordered">
-      <thead class="thead-dark">
-        <tr>
-          <th>Email</th>
-          <th>First Name</th>
-          <th>Last Name</th>
-          <th>Avatar</th>
-        </tr>
-      </thead>
-      <tbody id="table-body-id">
-
-      </tbody>
-    </table>
-
-    <div class="form-group" id="footer-id"> 
-      <bold>Next Page</bold>
-      <a disabled> < </a>
-      <a href="page_2.html">></a>
-      <button class="btn btn-outline-primary" id="sync-button-id" style="float: right; margin-right:1% ;">Sync</button>
+          </tbody>
+        </table>
+        
+        <div class="row" id="footer-id"> 
+          <div class="col">
+            <button type="button" class="btn btn-primary">
+              Pages <span class="badge badge-light">2</span>
+            </button>
+            <a disabled> < </a>
+            <a href="page_2.html">></a>
+          </div>
+          <div class="col">
+            <button class="btn btn-primary" id="sync-button-id" style="float: right; margin-right:1% ;">Sync with localhost</button>
+          </div>
+        </div>
+      </div>
     </div>
+
+
     
     <script src="node_modules/jquery/dist/jquery.js"></script>
     <script src="node_modules/jquery/dist/jquery.min.js"></script>

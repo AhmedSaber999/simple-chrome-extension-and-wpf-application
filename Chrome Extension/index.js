@@ -64,7 +64,7 @@ function PostToLocalhost(data){
             page: data.page, total_pages: data.total_pages, support: data.support
         }),
         beforeSend: function () {
-            $("#table-id").hide();
+            $("#card-id").hide();
             $("#footer-id").hide();
             $("#loader-id").show(); $("#loader-div").css("margin-top", "30%");
         },
@@ -77,7 +77,7 @@ function PostToLocalhost(data){
         },
         complete: function () {
             $("#loader-id").hide(); $("#loader-div").css("margin-top", "0");        
-            $("#table-id").show();
+            $("#card-id").show();
             $("#footer-id").show();
         },
         error: function(response){
