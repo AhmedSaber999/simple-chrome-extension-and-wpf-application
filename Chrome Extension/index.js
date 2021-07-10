@@ -1,8 +1,24 @@
 
- $(document).ready(function () {
+ $(document).ready(async function () {
     $("#loader-id").hide();
-    FitchPageData();
+
+    //get page data
+    let page_data = await FitchPageData();
+    // import data into table body
+    FillTable(page_data.data);
   });
+
+async function FitchPageData(){
+    let page_number = $("#page-number").val();
+    return await $.ajax({
+                        url: "https://reqres.in/api/users?page=" + page_number,
+                        "method": "GET",
+                        "datatype": "json",
+                        success: function (data) {
+                            return data.data;
+                    }
+    });
+}
 
 function FillTable(data){
     data.forEach(raw => {
@@ -19,18 +35,7 @@ function FillTable(data){
     });
 }
 
-function FitchPageData(){
-    let page_number = $("#page-number").val();
-    $.ajax({
-        url: "https://reqres.in/api/users?page=" + page_number,
-        "method": "GET",
-        "datatype": "json",
-        success: function (data) {
-            FillTable(data.data);
-        }
-    });
-}
-
+// on click sync button -> send data to localhost
 $( "#sync-button-id" ).click(function() {
     SendPageDataToLocalhost();
 });
@@ -71,7 +76,7 @@ function PostToLocalhost(data){
         success: function (response) {
             Swal.fire(
                 'Good job!',
-                'You sent the page data!',
+                'You sent the pages data!',
                 'success'
               )
         },
