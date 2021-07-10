@@ -45,6 +45,7 @@ namespace Dev_Cell_Task
             pages_button.Visibility = Visibility.Visible;
             close_button.IsEnabled = true;
             start_button.IsEnabled = false;
+            MessageBox.Show("The server is on and listening to localhost:5000 started");
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
@@ -53,6 +54,7 @@ namespace Dev_Cell_Task
             pages_button.Visibility = Visibility.Hidden;
             close_button.IsEnabled = false;
             start_button.IsEnabled = true;
+            MessageBox.Show("The server is Off");
         }
 
         private void pages_button_Click(object sender, RoutedEventArgs e)

@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 namespace Dev_Cell_Task.Model
 {
-    // Root myDeserializedClass = JsonConvert.DeserializeObject<Root>(myJsonResponse); 
     public class PageData
     {
         public int id { get; set; }

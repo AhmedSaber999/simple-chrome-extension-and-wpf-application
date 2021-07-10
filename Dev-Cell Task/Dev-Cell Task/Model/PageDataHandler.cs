@@ -79,13 +79,14 @@ namespace Dev_Cell_Task.Model
             }
             try
             {
+                // suspend the current thread for one second 
                 Thread.Sleep(1000);
+
                 var data_text = new StreamReader(context.Request.InputStream,
                 context.Request.ContentEncoding).ReadToEnd();
 
                 var data = System.Web.HttpUtility.UrlDecode(data_text);
                 var page_data = JsonConvert.DeserializeObject<PageDataRoot>(data);
-
 
                 if (page_data.page == 1)
                 {
@@ -112,6 +113,7 @@ namespace Dev_Cell_Task.Model
             {
                 MessageBox.Show(anotherException.Message);
             }
+            
         }
     }
 }
