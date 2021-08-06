@@ -1,15 +1,18 @@
-
+var page_number = 1;
+var page1_data = FitchPageData(1);
+var page2_data = FitchPageData(2);
  $(document).ready(async function () {
     $("#loader-id").hide();
 
-    //get page data
-    let page_data = await FitchPageData();
+    //get pages data
+    
+    page1_data = await FitchPageData(1);
+    page2_data = await FitchPageData(2);
     // import data into table body
-    FillTable(page_data.data);
+    FillTable(page1_data.data);
   });
 
-async function FitchPageData(){
-    let page_number = $("#page-number").val();
+async function FitchPageData(page_number){
     return await $.ajax({
                         url: "https://reqres.in/api/users?page=" + page_number,
                         "method": "GET",
@@ -21,6 +24,7 @@ async function FitchPageData(){
 }
 
 function FillTable(data){
+    $("#table-body-id").html("");
     data.forEach(raw => {
         $("#table-body-id").append(
             `
@@ -35,17 +39,27 @@ function FillTable(data){
     });
 }
 
+$( "#prev-button" ).click(function() {
+    if(page_number == 2){
+        FillTable(page1_data.data);
+        page_number = 1;
+    }
+});
+
+$( "#next-button" ).click(function() {
+    if(page_number == 1){
+        FillTable(page2_data.data);
+        page_number = 2;
+    }
+});
 // on click sync button -> send data to localhost
 $( "#sync-button-id" ).click(function() {
     SendPageDataToLocalhost();
 });
 
-async function SendPageDataToLocalhost(){
-    page_1_data = await GetPageData(1);
-    page_2_data = await GetPageData(2);
-    
-    PostToLocalhost(page_1_data);
-    PostToLocalhost(page_2_data);
+function SendPageDataToLocalhost(){
+    PostToLocalhost(page1_data);
+    PostToLocalhost(page2_data);
 }
 
 async function GetPageData(page_number){
